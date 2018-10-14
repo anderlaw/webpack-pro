@@ -1,0 +1,25 @@
+1.什么是webpack
+	打包 样式
+	打包图片
+	打包 js
+	打包 ...资源。
+	把js、css、图片 当作依赖（dependencies）来对待,并打包起来。
+2.webpack解决了什么问题？
+	1.将资源抽象为依赖。
+	2.增添依赖树的概念
+
+4. 步骤：
+
+新建项目 new-webpack-pro
+
+npm init -y 
+
+npm install --save-dev webpack-cli webpack 
+
+npm install --save-dev css-loader style-loader file-loader
+
+npm install --save-dev html-webpack-plugin
+
+
+
+live-server : npm install live-server -g 

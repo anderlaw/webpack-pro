@@ -1,0 +1,39 @@
+/* reset */
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 导航 */
+.navlist{
+    padding-left:10px;
+    background-color:#5daae7; 
+    line-height: 40px;
+}
+.navitem{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    padding: 0 10px;
+    display: inline-block;
+}
+.navitem.active{
+    color: orange;
+    background-color: #fff;
+}
+/* 视图 */
+.view-box{
+
+    white-space: pre-line;
+}
+#date-ele{
+    margin-top: 20px;
+    background-color: #ebc3c3;
+    line-height: 30px;
+    padding-left: 20px;
+    color: #fff;
+}
+#avatar{
+    height: 100px;
+    margin: 6px;
+}
